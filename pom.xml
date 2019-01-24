@@ -58,12 +58,12 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>2.2.1</version>
+				<version>2.3.0</version>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<!-- muleVersion is the runtime version as it appears on the CloudHub 
 						interface -->
-					<muleVersion>3.9.0</muleVersion>
+					<muleVersion>3.9.2</muleVersion>
 					<username>prasadteja141</username>
 					<password>Prasad-1</password>
 					<redeploy>true</redeploy>
