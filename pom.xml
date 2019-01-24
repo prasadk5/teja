@@ -169,7 +169,15 @@
 			<name>MuleSoft Releases Repository</name>
 			<url>http://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
+			
 		</repository>
+		<repository>
+       <!-- Set credentials for this repository in your Maven settings.xml file -->
+       <id>mulesoft-ee</id>
+       <name>MuleSoft Enterprise Repository</name>
+       <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+       <layout>default</layout>
+     </repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
